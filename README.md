@@ -27,3 +27,25 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Dhairya-Anand/Weather-App-React.git
    cd weather-app-react
+
+2. **Install Dependencies: After cloning the project, install the required dependencies by running**:
+    ```bash
+    npm install
+
+3. **Run the App: Once the setup is complete, you can run the app locally**:
+    ```bash
+    npm start
+
+**This will start the development server, and you can view the app by visiting http://localhost:3000 in your browser.**
+
+## Key Components
+
+- **Search Bar: Allows users to input a city name and press "Enter" to search for weather information.**
+- **Weather Display: Shows the current temperature, weather description, and additional details like "Feels Like" temperature, humidity, and wind speed.**
+- **Temperature Conversion: The app fetches temperature data in Fahrenheit and converts it to Celsius using a custom function.**
+
+## Technology Stack
+
+- **React: JavaScript library for building the user interface.**
+- **Axios: Used for making HTTP requests to the OpenWeather API.**
+- **CSS: Styling is done using modern, responsive CSS.**
